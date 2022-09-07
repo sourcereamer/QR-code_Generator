@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to  right, darkorange, black);
+  color: #FFF;
+}
+
+.App {
+  padding: 2rem 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  display: inline-flex;
+  vertical-align: middle;
+  font-size: 15px;
+  appearance: none;
+  outline: none;
+  border: 1px solid #ccc;
+  background: aliceblue;
+  margin-top: 5px;
+  margin-right: 1rem;
+  padding: 5px 10px;
+  width: 100%;
+  min-width: 350px;
+  max-width: 350px;
+  min-height: 60px;
+  max-height: 600px;
+  line-height: 20px;
+}
+
+button {
+  display: inline-grid;
+  vertical-align: middle;
+  padding: 15px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #187c46;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 6px #7c7979;
+}
+
+button:hover {background-color: rgba(24, 124, 70, 0.80)
+}
+
+button:active {
+  background-color: #187c46;
+  box-shadow: 0 3px #595959;
+  transform: translateY(5px);
+}
+
+img {
+  display: block;
+  width: 480px;
+  height: 480px;
+  margin: 2rem auto 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .textarea {
+    margin: 0;
+    min-height: 250px;
+    border-radius: 10px;
+  }
+  button {
+    padding: 1rem 3rem;
+    margin-top: 10px;
+    margin-bottom: 5rem;
+  }
+  img {
+    max-width: 90%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+}
