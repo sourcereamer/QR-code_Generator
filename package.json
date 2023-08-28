@@ -1,13 +1,10 @@
 {
-  "homepage": "http://sourcereamer.github.io/QR-code_Generator",
   "name": "qr-generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -20,7 +17,6 @@
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.0.1",
-    "gh-pages": "^6.0.0",
     "vite": "^3.0.7"
   }
 }
